@@ -1,7 +1,12 @@
+/* Estilos generales y Navbar */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0deg, #CFFFD3, #E6E2F3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .navbar {
@@ -38,4 +43,88 @@ body {
 
 .logo {
     width: 50px;
+    height: auto;
 }
+
+/* Estilos para la sección Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Estilos para la sección de texto informativo */
+.info-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section h2, 
+.info-section p {
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Sección Acerca del Canal */
+.about-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-left, .about-right {
+    width: 45%;  /* Ajusta según necesites */
+}
+
+/* Sección Acerca del Canal */
+.about-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-left, .about-right {
+    width: 45%;  /* Ajusta según necesites */
+}
+
+
